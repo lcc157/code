@@ -1,0 +1,1 @@
+{"cnn_cfg": {"width_mult": 1.0, "input_channel": 16, "last_channel": 960}, "bypass_rnn": true, "drop_probs": [0.0, 0.5, 0.5], "gaussian_init": "manual", "n_gaussians": 16, "smoothing_ksize": 41, "bn_momentum": 0.01, "static_bn_momentum": 0.1, "sources": ["SALICON"], "ds_bn": true, "ds_adaptation": true, "ds_smoothing": true, "ds_gaussians": true, "verbose": 1}

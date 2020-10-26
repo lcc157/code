@@ -1,0 +1,18 @@
+2020-10-25_10:42:52_unisal  MOBv3 255 se
+2020-10-25_11:47:52_unisal  MOBv3 255 eca
+2020-10-23_15:07:04_unisal  MOBv3 960
+2020-10-15_18:42:37_unisal  MOBv3 SMALL 960
+2020-10-09_12:57:56_unisal  Ghostnet
+2020-10-09_14:56:59_unisal  MOBv3
+2020-09-30_14:35:37_unisal  去掉每阶段最后的bn cbam   
+nn.Conv2d(hidden_dim, oup, 1, 1, 0, bias=False),
+                #GhostModule(hidden_dim,oup,1,2,3,1,relu=False),
+                #batchnorm(oup),
+                cbam_layer(oup),
+
+2020-09-28_10:17:53_unisal  98without skip
+2020-09-24_15:30:21_unisal  cbam2 （爱奇艺）
+2020-09-24_13:26:59_unisal  cbam1
+2020-09-24_11:34:09_unisal  eca
+2020-09-23_09:50:34_unisal  98
+2020-09-21_10:36:24_unisal  288
